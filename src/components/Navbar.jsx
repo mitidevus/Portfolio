@@ -3,6 +3,7 @@ import { CgProfile } from "react-icons/cg";
 import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import Logo from "../assets/logo1.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     const [nav, setNav] = useState(false);
@@ -20,11 +21,31 @@ function Navbar() {
             {/* Menu */}
             <ul className="hidden md:flex">
                 {/* md:flex nghĩa là sẽ được hiển thị flexbox trên các thiết bị có độ rộng màn hình lớn hơn hoặc bằng 768px */}
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li>
+                    <Link to="/" smooth={true} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li>
+                    <Link to="about" smooth={true} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li>
+                    <Link to="skills" smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li>
+                    <Link to="projects" smooth={true} duration={500}>
+                        Projects
+                    </Link>
+                </li>
+                <li>
+                    <Link to="contact" smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
             {/* Hamburger */}
@@ -42,11 +63,31 @@ function Navbar() {
                 }
             >
                 {/* h-screen là height: 100vh */}
-                <li className="py-6 text-4xl">Home</li>
-                <li className="py-6 text-4xl">About</li>
-                <li className="py-6 text-4xl">Skills</li>
-                <li className="py-6 text-4xl">Work</li>
-                <li className="py-6 text-4xl">Contact</li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="/" smooth={true} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="projects" smooth={true} duration={500}>
+                        Projects
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
             {/* Social icons */}
