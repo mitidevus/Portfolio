@@ -85,7 +85,7 @@ function Projects() {
                         <div className="overlay group-hover:opacity-60"></div>
                         <div className="opacity-0 z-10 group-hover:opacity-100 ">
                             <span className="text-2xl font-bold text-white tracking-wider">HOBO</span>
-                            <p className="italic">ReactJS, Redux Toolkit,  NodeJS, MongoDB Atlas</p>
+                            <p className="italic">ReactJS, Redux Toolkit, NodeJS, MongoDB Atlas</p>
                             <div className="pt-8 text-center">
                                 <a href="/">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg group-hover:translate-y-[-10px]">

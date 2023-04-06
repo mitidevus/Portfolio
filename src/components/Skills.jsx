@@ -1,20 +1,20 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import JavaScript from "../assets/javascript.png";
-import ReactJS from "../assets/react.png";
-import Bootstrap from "../assets/bootstrap.png";
-import Tailwind from "../assets/tailwind.png";
+import HTML from "../assets/skills/html.png";
+import CSS from "../assets/skills/css.png";
+import JavaScript from "../assets/skills/javascript.png";
+import ReactJS from "../assets/skills/react.png";
+import Bootstrap from "../assets/skills/bootstrap.png";
+import Tailwind from "../assets/skills/tailwind.png";
 
-import NodeJS from "../assets/node.png";
-import MongoDB from "../assets/mongo.png";
-import Firebase from "../assets/firebase.png";
-import GraphQL from "../assets/graphql.png";
+import NodeJS from "../assets/skills/node.png";
+import MongoDB from "../assets/skills/mongo.png";
+import Firebase from "../assets/skills/firebase.png";
+import GraphQL from "../assets/skills/graphql.png";
 
-import Postman from "../assets/postman.png";
-import GitHub from "../assets/github.png";
+import Postman from "../assets/skills/postman.png";
+import GitHub from "../assets/skills/github.png";
 
 function Skills() {
     return (
