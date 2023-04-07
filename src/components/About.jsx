@@ -1,8 +1,11 @@
 import React from "react";
+import Avatar from "../assets/avatar.jpg";
+import resume from "../assets/resume/resume.pdf";
+import { Link } from "react-scroll";
 
 function About() {
     return (
-        <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+        <div name="about" className="w-full sm:h-screen bg-[#0a192f] text-gray-300">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
                     <div className="sm:text-right pb-8 pl-4">
@@ -13,15 +16,36 @@ function About() {
                 <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                     <div className="sm:text-right text-4xl font-bold ">
                         <p>Hi, I'm Tri, nice to meet you. Please take a look around.</p>
+                        <div className="flex justify-center">
+                            <img
+                                src={Avatar}
+                                alt="avatar"
+                                className="rounded-full mt-4 w-64 h-64 border-[6px] border-pink-600"
+                            />
+                        </div>
                     </div>
                     <div>
+                        <p>Dear Visitor,</p>
+                        <br />
                         <p>
-                            I'm a third-year <span className="text-[#ccd6f6] font-bold">Software Engineering</span>{" "}
-                            student at{" "}
-                            <span className="text-[#ccd6f6] font-bold">Ho Chi Minh City University of Science</span>{" "}
-                            with expertise in <span className="text-pink-600 font-bold">Web Development</span> and a
-                            passion for UI/UX design. I'm excited to keep improving my skills in these areas.
+                            I am currently a third-year student pursuing a Bachelor of Science in Software Engineering
+                            at <span className="font-bold">Ho Chi Minh City University of Science</span>. I have
+                            experience in Web Development and a passion for UI/UX design. I'm eager to continue honing
+                            my skills and knowledge in these areas to create user-friendly and visually appealing
+                            designs that enhance the overall user experience.
                         </p>
+                        <br />
+                        <p>
+                            If you have any questions or would like to get in touch, please feel free to leave a message
+                            on the{" "}
+                            <Link to="contact" smooth={true} duration={500} className="font-bold cursor-pointer">
+                                Contact
+                            </Link>{" "}
+                            page, and I will get back to you as soon as possible. Thank you for visiting my website!
+                        </p>
+                        <br />
+                        <p>Best regards,</p>
+                        <p>Tri Do</p>
                     </div>
                 </div>
             </div>

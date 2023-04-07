@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { CgProfile } from "react-icons/cg";
 import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import Logo from "../assets/logo1.png";
+import Logo from "../assets/logo.png";
 import resume from "../assets/resume/resume.pdf";
 import { Link } from "react-scroll";
 
@@ -99,7 +99,9 @@ function Navbar() {
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
-                            href="https://www.linkedin.com/in/mitidevus/"
+                            href="https://www.linkedin.com/in/minhtrido/"
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             LinkedIn <FaLinkedin size={30} />
                         </a>
@@ -108,6 +110,8 @@ function Navbar() {
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
                             href="https://github.com/mitidevus"
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             Github <FaGithub size={30} />
                         </a>
@@ -124,7 +128,7 @@ function Navbar() {
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
                             href={resume}
-                            download="[CV] Do Minh Tri - Web Developer Intern"
+                            download="[CV] Do Minh Tri"
                         >
                             Resume <CgProfile size={30} />
                         </a>
