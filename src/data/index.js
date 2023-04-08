@@ -48,19 +48,11 @@ export const data = [
         name: "Ogani",
         image: Ogani,
         github: "https://github.com/mitidevus/Ogani",
-        demo: "/",
+        demo: "https://github.com/mitidevus/Ogani-Admin",
         technologies: "NodeJS, ExpressJS, Handlebars, MySQL",
     },
     {
         id: 6,
-        name: "Ogani Admin",
-        image: OganiAdmin,
-        github: "https://github.com/mitidevus/Ogani-Admin",
-        demo: "/",
-        technologies: "NodeJS, ExpressJS, Handlebars, MySQL",
-    },
-    {
-        id: 7,
         name: "Netflix",
         image: Netflix,
         github: "https://github.com/mitidevus/NetflixUI",
@@ -68,7 +60,7 @@ export const data = [
         technologies: "ReactJS, Tailwind CSS, Firebase",
     },
     {
-        id: 8,
+        id: 7,
         name: "Music Player",
         image: MusicPlayer,
         github: "https://github.com/mitidevus/Music-Player",
@@ -76,7 +68,7 @@ export const data = [
         technologies: "HTML, CSS, JavaScript",
     },
     {
-        id: 9,
+        id: 8,
         name: "Shopee",
         image: Shopee,
         github: "https://github.com/mitidevus/ShopeeUI",
@@ -84,7 +76,7 @@ export const data = [
         technologies: "HTML, CSS, JavaScript",
     },
     {
-        id: 10,
+        id: 9,
         name: "Coffee",
         image: Coffee,
         github: "https://github.com/mitidevus/Coffee",
@@ -92,7 +84,7 @@ export const data = [
         technologies: "HTML, CSS, JavaScript",
     },
     {
-        id: 11,
+        id: 10,
         name: "Target",
         image: Target,
         github: "https://github.com/mitidevus/Target",

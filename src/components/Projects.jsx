@@ -35,14 +35,19 @@ function Projects() {
                                     <a href={project.github} target="_blank" rel="noreferrer">
                                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg group-hover:translate-y-[-10px] ">
                                             <span className="flex items-center">
-                                                Code <FaGithub size={20} className="ml-1 inline" />
+                                                {project.name === "Ogani" ? "Customer" : "Code"} <FaGithub size={20} className="ml-1 inline" />
                                             </span>
                                         </button>
                                     </a>
                                     <a href={project.demo} target="_blank" rel="noreferrer">
                                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg group-hover:translate-y-[-10px]">
                                             <span className="flex items-center">
-                                                Live Demo <RiShareBoxLine size={20} className="ml-1 inline" />
+                                                {project.name === "Ogani" ? "Admin" : "Live Demo"}
+                                                {project.name === "Ogani" ? (
+                                                    <FaGithub size={20} className="ml-1 inline" />
+                                                ) : (
+                                                    <RiShareBoxLine size={20} className="ml-1 inline" />
+                                                )}
                                             </span>
                                         </button>
                                     </a>
