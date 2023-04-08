@@ -128,7 +128,7 @@ function Navbar() {
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
                             href={resume}
-                            download="[CV] Do Minh Tri"
+                            download="[CV] Do Minh Tri - Web Developer Intern"
                         >
                             Resume <CgProfile size={30} />
                         </a>
