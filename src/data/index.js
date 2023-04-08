@@ -1,14 +1,13 @@
-import Target from "../assets/projects/target.png";
 import Coffee from "../assets/projects/coffee.png";
-import Shopee from "../assets/projects/shopee.png";
+import Hobo from "../assets/projects/hobo.png";
 import MusicPlayer from "../assets/projects/music-player.png";
 import Netflix from "../assets/projects/netflix.png";
-import Ogani from "../assets/projects/ogani.png";
-import OganiAdmin from "../assets/projects/ogani-admin.png";
-import Hobo from "../assets/projects/hobo.png";
 import NoteApp from "../assets/projects/note-app.png";
-import YGZone from "../assets/projects/ygzone.png";
+import Ogani from "../assets/projects/ogani.png";
 import Portfolio from "../assets/projects/portfolio.png";
+import Shopee from "../assets/projects/shopee.png";
+import Target from "../assets/projects/target.png";
+import YGZone from "../assets/projects/ygzone.png";
 
 export const data = [
     {
