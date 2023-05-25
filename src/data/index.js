@@ -1,5 +1,6 @@
 import Coffee from "../assets/projects/coffee.png";
 import Hobo from "../assets/projects/hobo.png";
+import Jobee from "../assets/projects/jobee.png";
 import MusicPlayer from "../assets/projects/music-player.png";
 import Netflix from "../assets/projects/netflix.png";
 import NoteApp from "../assets/projects/note-app.png";
@@ -12,6 +13,14 @@ import YGZone from "../assets/projects/ygzone.png";
 export const data = [
     {
         id: 1,
+        name: "Jobee",
+        image: Jobee,
+        github: "https://github.com/mitidevus/FE-JobFinder",
+        demo: "https://jobeevn.netlify.app/",
+        technologies: "ReactJS, Tailwind CSS, Redux Toolkit, NodeJS, ExpressJS, MongoDB",
+    },
+    {
+        id: 2,
         name: "Portfolio",
         image: Portfolio,
         github: "https://github.com/mitidevus/Portfolio",
@@ -19,7 +28,7 @@ export const data = [
         technologies: "ReactJS, Tailwind CSS",
     },
     {
-        id: 2,
+        id: 3,
         name: "Note App",
         image: NoteApp,
         github: "https://github.com/mitidevus/Note-App-GraphQL",
@@ -27,23 +36,23 @@ export const data = [
         technologies: "ReactJS, Material UI, NodeJS, GraphQL, MongoDB, Firebase",
     },
     {
-        id: 3,
-        name: "YGZone",
+        id: 4,
+        name: "YG Zone",
         image: YGZone,
         github: "https://github.com/mitidevus/YG-Zone",
         demo: "https://ygzone.netlify.app/",
         technologies: "ReactJS, Redux Toolkit",
     },
     {
-        id: 4,
-        name: "Hobo",
+        id: 5,
+        name: "HOBO",
         image: Hobo,
         github: "https://github.com/mitidevus/FE-HOBO",
         demo: "https://hobovn.netlify.app/",
-        technologies: "ReactJS, Redux Toolkit, NodeJS, MongoDB Atlas",
+        technologies: "ReactJS, Redux Toolkit, NodeJS, MongoDB",
     },
     {
-        id: 5,
+        id: 6,
         name: "Ogani",
         image: Ogani,
         github: "https://github.com/mitidevus/Ogani",
@@ -51,7 +60,7 @@ export const data = [
         technologies: "NodeJS, ExpressJS, Handlebars, MySQL",
     },
     {
-        id: 6,
+        id: 7,
         name: "Netflix",
         image: Netflix,
         github: "https://github.com/mitidevus/NetflixUI",
@@ -59,7 +68,7 @@ export const data = [
         technologies: "ReactJS, Tailwind CSS, Firebase",
     },
     {
-        id: 7,
+        id: 8,
         name: "Music Player",
         image: MusicPlayer,
         github: "https://github.com/mitidevus/Music-Player",
@@ -67,7 +76,7 @@ export const data = [
         technologies: "HTML, CSS, JavaScript",
     },
     {
-        id: 8,
+        id: 9,
         name: "Shopee",
         image: Shopee,
         github: "https://github.com/mitidevus/ShopeeUI",
@@ -75,7 +84,7 @@ export const data = [
         technologies: "HTML, CSS, JavaScript",
     },
     {
-        id: 9,
+        id: 10,
         name: "Coffee",
         image: Coffee,
         github: "https://github.com/mitidevus/Coffee",
@@ -83,7 +92,7 @@ export const data = [
         technologies: "HTML, CSS, JavaScript",
     },
     {
-        id: 10,
+        id: 11,
         name: "Target",
         image: Target,
         github: "https://github.com/mitidevus/Target",
