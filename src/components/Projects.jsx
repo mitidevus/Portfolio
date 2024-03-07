@@ -41,21 +41,23 @@ function Projects() {
                                 </p>
                                 <p className="pt-2">{project.note}</p>
                                 <div className="pt-8 text-center">
-                                    <a
-                                        href={project.github}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg group-hover:translate-y-[-10px] ">
-                                            <span className="flex items-center">
-                                                GitHub
-                                                <FaGithub
-                                                    size={20}
-                                                    className="ml-1 inline"
-                                                />
-                                            </span>
-                                        </button>
-                                    </a>
+                                    {project?.github && (
+                                        <a
+                                            href={project.github}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg group-hover:translate-y-[-10px] ">
+                                                <span className="flex items-center">
+                                                    GitHub
+                                                    <FaGithub
+                                                        size={20}
+                                                        className="ml-1 inline"
+                                                    />
+                                                </span>
+                                            </button>
+                                        </a>
+                                    )}
                                     {project?.github2 && (
                                         <a
                                             href={project?.github2}

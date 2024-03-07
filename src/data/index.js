@@ -12,11 +12,47 @@ import Shopee from "../assets/projects/shopee.png";
 import Target from "../assets/projects/target.png";
 import VBA from "../assets/projects/vba.png";
 import YGZone from "../assets/projects/ygzone.png";
+import SimpleBank from "../assets/projects/simple-bank.jpg";
+import AdsManagement from "../assets/projects/ads-management.png";
+import VNShop from "../assets/projects/vnshop.png";
+import HNCityTour from "../assets/projects/hn-city-tour.png";
 
 export const data = [
     {
+        id: 18,
+        name: "Advertising Management",
+        image: AdsManagement,
+        github: "https://github.com/mitidevus/ads-management",
+        demo: "https://ads-management.vercel.app/",
+        technologies:
+            "ReactJS, Material UI, Mapbox, NestJS, Node.js, PostgreSQL, NX Workspace.",
+    },
+    {
+        id: 17,
+        name: "Simple Bank (Udemy)",
+        image: SimpleBank,
+        github: "https://github.com/mitidevus/simplebank",
+        technologies:
+            "Golang, Gin, SQLC, Swagger, PostgreSQL, Redis, gRPC, Docker, Kubernetes, AWS, Unit Testing.",
+    },
+    {
+        id: 16,
+        name: "VNShop (Nexpando)",
+        image: VNShop,
+        technologies:
+            "Next.js, React, Tailwind CSS, TypeScript, Strapi.",
+    },
+    {
+        id: 15,
+        name: "Ha Noi City Tour (Nexpando)",
+        image: HNCityTour,
+        demo: "https://hncitytour.vn/",
+        technologies:
+            "Next.js, React, Tailwind CSS, TypeScript, Strapi.",
+    },
+    {
         id: 14,
-        name: "VBA",
+        name: "Vietnam Basketball Association",
         image: VBA,
         github: "https://github.com/mitidevus/FE-VBA-Next.js",
         github2: "https://github.com/mitidevus/BE-VBA-LoopBack-4",

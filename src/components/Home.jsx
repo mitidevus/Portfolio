@@ -28,9 +28,10 @@ function Home() {
                         Web Development
                     </span>{" "}
                     using{" "}
-                    <span className="text-[#ccd6f6] font-bold">Node.js</span>{" "}
-                    and <span className="text-[#ccd6f6] font-bold">React</span>{" "}
-                    . I'm excited to keep improving my skills in these areas.
+                    <span className="text-[#ccd6f6] font-bold">Node.js</span>,{" "}
+                    <span className="text-[#ccd6f6] font-bold">Golang</span> and{" "}
+                    <span className="text-[#ccd6f6] font-bold">ReactJS</span> .
+                    I'm excited to keep improving my skills in these areas.
                 </p>
                 <div>
                     <Link to="projects" smooth={true} duration={500}>

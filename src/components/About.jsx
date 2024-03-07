@@ -61,7 +61,7 @@ function About() {
                         </p>
                         <br />
                         <p>Best regards,</p>
-                        <p>Tri Do</p>
+                        <p>Tri Do Minh</p>
                     </div>
                 </div>
             </div>

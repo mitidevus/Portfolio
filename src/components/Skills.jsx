@@ -3,10 +3,11 @@ import React from "react";
 
 import Docker from "../assets/skills/docker.png";
 import RabbitMQ from "../assets/skills/rabbitmq.png";
-import Postman from "../assets/skills/postman.png";
-import GitHub from "../assets/skills/github.png";
 import Linux from "../assets/skills/linux.png";
 
+import NestJS from "../assets/skills/nestjs.svg";
+import Golang from "../assets/skills/go.png";
+import Gin from "../assets/skills/gin.png";
 import NodeJS from "../assets/skills/node.png";
 import Loopback from "../assets/skills/loopback.svg";
 import PostgreSQL from "../assets/skills/postgresql.svg.png";
@@ -15,29 +16,28 @@ import TypeScript from "../assets/skills/typescript.svg";
 
 import NextJS from "../assets/skills/nextjs.svg";
 import ReactJS from "../assets/skills/react.png";
-import Redux from "../assets/skills/redux.png";
 import Tailwind from "../assets/skills/tailwind.png";
 import MUI from "../assets/skills/mui.png";
 
 function Skills() {
     const skills = [
         // Backend
+        { name: "TypeScript", icon: TypeScript },
         { name: "Node.js", icon: NodeJS },
+        { name: "NestJS", icon: NestJS },
         { name: "LoopBack 4", icon: Loopback },
         { name: "PostgreSQL", icon: PostgreSQL },
+        { name: "Golang", icon: Golang },
+        { name: "Gin", icon: Gin },
+        { name: "Docker", icon: Docker },
+        { name: "RabbitMQ", icon: RabbitMQ },
         { name: "MongoDB", icon: MongoDB },
-        { name: "TypeScript", icon: TypeScript },
         // Frontend
-        { name: "Next.js", icon: NextJS },
         { name: "React", icon: ReactJS },
-        { name: "Redux Toolkit", icon: Redux },
+        { name: "Next.js", icon: NextJS },
         { name: "Tailwind CSS", icon: Tailwind },
         { name: "Material UI", icon: MUI },
         // Tools
-        { name: "Docker", icon: Docker },
-        { name: "RabbitMQ", icon: RabbitMQ },
-        { name: "Postman", icon: Postman },
-        { name: "GitHub", icon: GitHub },
         { name: "Linux", icon: Linux },
     ];
 
