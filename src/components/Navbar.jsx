@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { CgProfile } from "react-icons/cg";
 import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
+import { Link } from "react-scroll";
 import Logo from "../assets/logo.png";
 import resume from "../assets/resume/resume.pdf";
-import { Link } from "react-scroll";
 
 function Navbar() {
     const [nav, setNav] = useState(false);
@@ -128,7 +128,7 @@ function Navbar() {
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
                             href={resume}
-                            download="[CV] Do Minh Tri - Web Developer Intern"
+                            download="[CV] Minh Tri Do - Software Engineer"
                         >
                             Resume <CgProfile size={30} />
                         </a>

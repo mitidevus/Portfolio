@@ -35,14 +35,22 @@ function About() {
                         <p>Dear Visitor,</p>
                         <br />
                         <p>
-                            I am currently a senior student pursuing a Bachelor
+                            I am a graduate with a Bachelor
                             of Science in Software Engineering at{" "}
                             <span className="font-bold">
                                 Ho Chi Minh City University of Science
                             </span>
-                            . I’m seeking opportunities in order to contribute
-                            to projects and advance my skills as a software
-                            engineer.
+                            . Currently, I am working as a {" "}
+                            <span className="font-bold">
+                                Software Engineer
+                            </span>{" "}
+                            at{" "}
+                            <span className="font-bold">
+                                NashTech
+                            </span>
+                            , with over one year of professional experience.
+                            I am passionate about contributing to impactful projects and
+                            continuously advancing my skills as a software engineer.
                         </p>
                         <br />
                         <p>

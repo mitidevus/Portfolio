@@ -12,26 +12,27 @@ function Home() {
                     Tri Do
                 </h1>
                 <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-                    I'm a Web Developer.
+                    I'm a Software Engineer.
                 </h2>
                 <p className="text-[#8892b0] py-4 max-w-[700]">
-                    I'm a senior{" "}
+                    As a recent graduate with a Bachelor’s degree in{" "}
                     <span className="text-[#ccd6f6] font-bold">
                         Software Engineering
                     </span>{" "}
-                    student at{" "}
+                    from{" "}
                     <span className="text-[#ccd6f6] font-bold">
                         Ho Chi Minh City University of Science
                     </span>{" "}
-                    with expertise in{" "}
+                    , I have gained valuable experience in{" "}
                     <span className="text-pink-600 font-bold">
                         Web Development
                     </span>{" "}
                     using{" "}
                     <span className="text-[#ccd6f6] font-bold">Node.js</span>,{" "}
-                    <span className="text-[#ccd6f6] font-bold">Golang</span> and{" "}
-                    <span className="text-[#ccd6f6] font-bold">ReactJS</span> .
-                    I'm excited to keep improving my skills in these areas.
+                    <span className="text-[#ccd6f6] font-bold">ReactJS</span>,{" "}
+                    <span className="text-[#ccd6f6] font-bold">Python</span> and{" "}
+                    <span className="text-[#ccd6f6] font-bold">Golang</span>.
+                    I am eager to contribute to projects and continue enhancing my skills as a software engineer.
                 </p>
                 <div>
                     <Link to="projects" smooth={true} duration={500}>

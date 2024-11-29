@@ -2,22 +2,22 @@
 import React from "react";
 
 import Docker from "../assets/skills/docker.png";
+import GraphQL from "../assets/skills/graphql.png";
 import RabbitMQ from "../assets/skills/rabbitmq.png";
-import Linux from "../assets/skills/linux.png";
 
-import NestJS from "../assets/skills/nestjs.svg";
-import Golang from "../assets/skills/go.png";
 import Gin from "../assets/skills/gin.png";
-import NodeJS from "../assets/skills/node.png";
-import Loopback from "../assets/skills/loopback.svg";
-import PostgreSQL from "../assets/skills/postgresql.svg.png";
+import Golang from "../assets/skills/go.png";
 import MongoDB from "../assets/skills/mongo.png";
+import NestJS from "../assets/skills/nestjs.svg";
+import NodeJS from "../assets/skills/node.png";
+import PostgreSQL from "../assets/skills/postgresql.svg.png";
+import Python from "../assets/skills/python.png";
 import TypeScript from "../assets/skills/typescript.svg";
 
+import MUI from "../assets/skills/mui.png";
 import NextJS from "../assets/skills/nextjs.svg";
 import ReactJS from "../assets/skills/react.png";
 import Tailwind from "../assets/skills/tailwind.png";
-import MUI from "../assets/skills/mui.png";
 
 function Skills() {
     const skills = [
@@ -25,20 +25,20 @@ function Skills() {
         { name: "TypeScript", icon: TypeScript },
         { name: "Node.js", icon: NodeJS },
         { name: "NestJS", icon: NestJS },
-        { name: "LoopBack 4", icon: Loopback },
         { name: "PostgreSQL", icon: PostgreSQL },
+        { name: "MongoDB", icon: MongoDB },
         { name: "Golang", icon: Golang },
         { name: "Gin", icon: Gin },
+        { name: "Python", icon: Python },
         { name: "Docker", icon: Docker },
         { name: "RabbitMQ", icon: RabbitMQ },
-        { name: "MongoDB", icon: MongoDB },
         // Frontend
         { name: "React", icon: ReactJS },
         { name: "Next.js", icon: NextJS },
-        { name: "Tailwind CSS", icon: Tailwind },
         { name: "Material UI", icon: MUI },
-        // Tools
-        { name: "Linux", icon: Linux },
+        { name: "Tailwind CSS", icon: Tailwind },
+        // Others
+        { name: "GraphQL", icon: GraphQL },
     ];
 
     return (
